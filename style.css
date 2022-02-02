@@ -1,0 +1,49 @@
+
+#divinfo{
+  color: #0000ff;
+  background-color: #ff0000;
+}
+.emphasise{
+  color: #ffffff;
+  background: #000000;
+}
+.maintitle{
+  color: #ff00ff;
+  background: #f00f00;
+}
+.nexttitle{
+  color: #D47D0C;
+  background-color: #AC0CD4;
+}
+
+a:link {
+ color: #ff0000;
+}
+
+a:visited {
+ color: #00ff00;
+}
+
+a:hover {
+ color: #ffff00;
+}
+
+.major{
+  color: #56BBFF;
+  background-color: #0D7735;
+}
+
+.thelist{
+  color: #FAC45F;
+  background-color: #0DCBFB;
+}
+
+.paragraph{
+  background-color: #919181;
+  color: #0E02AF;
+}
+
+.foot{
+  color: #3FAF02;
+  background-color: #BE1C70;
+}
