@@ -1,0 +1,47 @@
+a:link {
+color: #00ff00;
+}
+
+a{ color: #00ff00;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #ff0000;
+  text-decoration: underline;
+}
+
+#poisonsky{
+  background-color: #039dfc;
+}
+.maintitle{
+  color: #FFFFFF;
+}
+.Fire{
+  color: #0000FF;
+}
+.Doctalk{
+  color: #fc9d03;
+}
+.Inferno{
+  background-color: #fcfc03;
+}
+.KILLME{
+  color: #ff0000
+}
+.father{
+  color: #fcfc03;
+  background-color: #067012;
+}
+.long{
+  background-color: #03fc84;
+}
+.last{
+  background-color: #fcfc03;
+}
+.doctitle{
+  color: #ff0000;
+}
+.Imdoc{
+  color: #0000ff;
+}
