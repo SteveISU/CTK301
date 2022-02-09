@@ -1,0 +1,57 @@
+h1{
+  font-family:sans-serif;
+font-style: italic;
+font-weight: normal;
+color: #f57542;
+}
+
+h2{
+  font-family:sans-serif;
+font-style: italic;
+font-weight: normal;
+color: #f57542;
+}
+
+h3{
+  font-family:sans-serif;
+font-style: italic;
+font-weight: normal;
+color: #f57542;
+}
+
+h4{
+  font-family:sans-serif;
+font-style: italic;
+font-weight: normal;
+color: #f57542;
+}
+
+
+p {
+  font-family:sans-serif;
+}
+
+ul{
+  font-family:sans-serif;
+}
+
+.textcenter{
+  text-align: center;
+}
+
+.textjustify{
+  text-align: justify;
+}
+
+img{
+  border: 30px solid #000000;
+padding: 20px 20px 20px 20px;
+margin: 20px 20px 20px 20px;
+background-color: #ffffff
+}
+
+body{
+background-color: #cccccc;
+  background-image: url(Background.jpg);
+  background-position: top left;
+}
