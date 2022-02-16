@@ -40,6 +40,7 @@ h1{
   border: 20px solid #ffffff;
 background-color: #ffffff;
 color: #000000;
+margin-bottom: 30px;
 }
 
 .bottom{
@@ -53,6 +54,13 @@ border: 0px;
 width: 150px;
 margin-right: 10px;
 padding: 0px;
+}
+
+nav ul{
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 30px;
+
 }
 
 nav li a{
@@ -71,7 +79,7 @@ main{
   border: 20px solid #ffffff;
 background-color: #ffffff;
 color: #000000;
-margin: 25px;
+margin-bottom: 25px;
 }
 
 footer{
