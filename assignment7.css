@@ -1,0 +1,131 @@
+h1{
+  font-family:sans-serif;
+  font-weight: normal;
+  font-style: italic;
+  padding: 30px;
+  margin: 0px;
+color: #029be8;
+background-image: linear-gradient(to top, #3183fb, #2166e0, #1349c5, #082ba8, #00068b);
+}
+
+
+h2{
+  color: #029be8;
+  font-family: sans-serif;
+  font-weight: normal;
+  grid-column: span 12;
+}
+.bottomline{
+border-bottom: 5px solid #0000ff;
+padding-bottom: 9px;
+margin: 17px;
+margin-top: 35px;
+}
+
+.Georgia{
+  grid-column: span 12;
+  font-family: Georgia;
+  font-weight:bold;
+  text-align: justify;
+  margin-bottom: 0px;
+}
+
+p{
+  margin: 17px;
+  margin-top: 0px;
+}
+
+img{
+  border: 3px solid #0000ff;
+  margin: 25px;
+  margin-right: 15px;
+}
+
+.Coach{
+  float: left;
+}
+
+.Lady{
+  float: right;
+}
+
+.Logo{
+  border: 0px;
+}
+
+header{grid-column: span 12;
+}
+nav{
+  grid-column: span 12;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to bottom, #3183fb, #2166e0, #1349c5, #082ba8, #00068b);
+}
+
+nav li{
+  width: 230px;
+  margin-right: 10px;
+  display: inline-block;
+  border-right: 11px solid #0000ff;
+  margin:0px;
+}
+
+nav li a{
+  color: #029be8;
+  text-decoration: none;
+font-family:sans-serif;
+font-weight: bold;
+    background-color: #cc0000;
+    display: block;
+    padding: 17px;
+    padding-left: 10px;
+    background-image: linear-gradient(to top, #3183fb, #2166e0, #1349c5, #082ba8, #00068b);
+}
+
+nav li a:hover{
+ background-image: linear-gradient(to bottom, #3183fb, #2166e0, #1349c5, #082ba8, #00068b);
+}
+
+main{grid-column: span 12;
+
+}
+
+footer{
+  border-top: 5px solid #0000ff;
+  background-color: #ff030f;
+  color: #ff0000;
+  padding: 10px;
+  grid-column: span 12;
+  margin-top: 20px;
+}
+
+.h2link:link{
+  text-decoration: none;
+  color: #ff0000;
+  font-weight: bold;
+}
+.h2link:hover{
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+a{
+  color:#ff0000;
+}
+
+
+#wrapper {
+  margin: 5em auto;
+  padding: 0px;
+  width: 960px;
+  border: 5px solid #0000ff;
+  background-color: #ffffff;
+  display: grid;grid-template-columns: repeat(12, 1fr)
+}
+
+
+
+body{background-color: #7c898f;}
