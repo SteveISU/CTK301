@@ -86,7 +86,7 @@ p{
   color: white;
   margin-bottom: -300px;
   box-shadow: -30px -13px 8px #04114B; /* x, y, blur, color */
-
+  width: 300px;
 }
 
 .ME{
