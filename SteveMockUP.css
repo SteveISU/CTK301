@@ -16,6 +16,7 @@ h2{
 
 h3{
   font-family:Impact;
+  padding-bottom: 0px;
 }
 
 header{grid-column: span 12;
@@ -86,8 +87,7 @@ p{
   color: white;
   margin-bottom: -300px;
   box-shadow: -30px -13px 8px #04114B; /* x, y, blur, color */
-  width: 300px;
-  height: 300px;
+  width: 350px;
 }
 
 .ME{
@@ -103,17 +103,19 @@ p{
 }
 
 main{
-  grid-column: span 4;
+  grid-column: span 12;
   color: #ffffff;
 }
 
 iframe{
   margin: 25px;
-  width: 1000px;
+  width: 900px;
   height: 500px;
   border: 5px solid #ffffff;
   margin-left: 0px;
   margin-right: 0px;
+  grid-column: span 12px; 
+
 }
 
 
@@ -136,7 +138,7 @@ footer{
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 0px;
-  padding-bottom: 5px;
+  padding-bottom: 25px;
   margin-left: 10px;
   margin-right: 70px;
   margin-bottom: 15px;
@@ -148,7 +150,7 @@ footer{
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 0px;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   margin-left: 10px;
   margin-right: 70px;
   margin-bottom: 15px;
@@ -159,4 +161,32 @@ footer{
 
 #wrapper {
   display: grid;grid-template-columns: repeat(12, 1fr)
+}
+
+.carousel {
+  color: #170724;
+
+  --carousel-button-bg: #fff;
+  --carousel-button-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0
+          0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+
+  --carousel-button-svg-width: 20px;
+  --carousel-button-svg-height: 20px;
+  --carousel-button-svg-stroke-width: 2.5;
+}
+
+.carousel__slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 80%!important;
+  height: 500px;
+  margin-right: 6px;
+
+  background-color: #eee;
+  border-radius: 6px;
+}
+
+#myCarousel {
 }
