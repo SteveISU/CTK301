@@ -90,6 +90,9 @@ p{
   width: 350px;
 }
 
+img{
+  height: 600px;
+}
 .ME{
   height: 500px;
   width: 500px;
@@ -110,11 +113,11 @@ main{
 iframe{
   margin: 25px;
   width: 900px;
-  height: 500px;
+  height: 800px;
   border: 5px solid #ffffff;
-  margin-left: 0px;
+  margin-left: 250px;
   margin-right: 0px;
-  grid-column: span 12px; 
+  grid-column: span 12px;
 
 }
 
@@ -180,8 +183,8 @@ footer{
   align-items: center;
   justify-content: center;
 
-  width: 80%!important;
-  height: 500px;
+  width: 78%!important;
+  height: 688px;
   margin-right: 6px;
 
   background-color: #eee;
