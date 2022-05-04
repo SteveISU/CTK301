@@ -93,7 +93,7 @@ p{
 }
 
 img{
-  height: 600px;
+  height: 500px;
 }
 .ME{
   height: 500px;
@@ -196,7 +196,7 @@ footer{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 688px;
+  height: 588px;
   margin-right: 6px;
 
   background-color: #eee;
@@ -205,4 +205,9 @@ footer{
 
 #myCarousel {
   width: 100%;
+
+}
+#myCarousel img {
+  width: 60%;
+  height: 100%;
 }
